@@ -1,0 +1,126 @@
+/* NOTICIAS */
+
+.news {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.news article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.noticias-titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 0 0 0;
+}
+
+.noticias-titulo h1{
+    color: black;
+    text-shadow: 2px 2px 4px rgba(47, 47, 47, 0.5);
+    font-family: serif;
+}
+
+.news .new1{
+    display: flex;
+    flex-direction: column;
+    padding: 8px 10px 20px 10px;
+    margin: 0px 0 15px 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(22deg, rgba(0,0,0,1) 32%, rgba(20,83,162,1) 80%);
+}
+
+.tittles-news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tittles-news h6 {
+    color: white;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.tittle-principal{
+    color: white;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.description-news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description-news img {
+    margin: 20px;
+    width: 80%;
+    height: auto;
+}
+
+.description-news p, ul{
+    color: white;
+}
+
+.news .new2{
+    display: flex;
+    flex-direction: column;
+    padding: 8px 10px 20px 10px;
+    margin: 15px 0 15px 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(22deg, rgba(0,0,0,1) 37%, rgba(198,103,30,1) 80%);
+}
+
+.new3 {
+    padding: 8px 10px 20px 10px;
+    color: white;
+    margin: 15px 0 15px 0;
+    background: rgb(234,242,252);
+    background: linear-gradient(90deg, rgb(187, 218, 255) 0%, rgba(72,189,255,1) 52%);
+}
+
+.new3 li a{
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.info-news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-news iframe{
+    align-items: center;
+}
+
+/* BOTÓN VER MÁS */
+
+.button-news{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 15px 0;
+}
+
+.button-news button {
+    padding: 4px;
+    color: white;
+    background-color: var(--violeta);
+    border: 1px solid var(--violeta);
+    border-radius: 10px;
+    font-family: serif;
+}
+
+.button-news button:hover {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
