@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arquitectura de computadoras</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/images/logo1.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <div class="ludtech" data-text="LUDTECH"><a href="/index.html">LUDTECH</a></div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+            <nav id="nav">
+                <ul>
+                    <li><a href="/componentes.html">Productos</a></li>
+                    <li><a href="/noticias.html">Noticias</a></li>
+                    <li><a href="/sobre-proyecto.html">Sobre proyecto</a></li>
+                    <li><a href="/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/images/carrousel/foto1.webp" class="d-block w-100 img-fluid" alt="First slide">
+                    <div class="carousel-caption">
+                        <h2>TODO SOBRE</h2>
+                        <h1>TECNOLOGÍA</h1>
+                        <a href="/noticias.html" class="btn btn-outline-info"> <i class="fa-solid fa-code"></i> información </a>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <img src="/images/carrousel/foto2.png" class="d-block w-100 img-fluid" alt="First slide">
+                    <div class="carousel-caption">
+                        <h2>TODO SOBRE</h2>
+                        <h1>COMPONENTES</h1>
+                        <a href="#" class="btn btn-outline-info"> <i class="fa-solid fa-microchip"></i> componentes </a>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <img src="/images/carrousel/foto3.png" class="d-block w-100 img-fluid" alt="First slide">
+                    <div class="carousel-caption">
+                        <h2>TODO SOBRE</h2>
+                        <h1>PERIFÉRICOS</h1>
+                        <a href="#" class="btn btn-outline-info"> <i class="fa-solid fa-keyboard"></i> periféricos </a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </main>
+
+    <div class="contenedor-anuncio">
+        <p class="texto-en-movimiento">¡NOTICIAS! ¡NOTICIAS! ¡NOTICIAS! ¡NOTICIAS! ¡NOTICIAS! ¡NOTICIAS! ¡NOTICIAS! ¡NOTICIAS! ¡NOTICIAS! ¡NOTICIAS! ¡NOTICIAS! ¡NOTICIAS! ¡NOTICIAS! ¡NOTICIAS! ¡NOTICIAS!</p>
+    </div>
+
+
+    <section class="cards-noticias"> 
+        <div class="contenedor-tarjetas">
+            <div class="tarjeta">
+                <img src="/images/noticias/noticia1.webp" alt="Imagen de ejemplo" class="tarjeta-imagen">
+                <div class="tarjeta-contenido">
+                    <h2 class="tarjeta-titulo">Razer colabora con Epic Games</h2>
+                    <p class="tarjeta-texto">La conocida marca de dispositivos para jugadores anuncia el lanzamiento de una nueva colección con algunos de sus periféricos más importantes decorados con motivos del battle royale.</p>
+                    <a href="#" class="tarjeta-boton">Leer Más</a>
+                </div>
+            </div>
+            <div class="tarjeta">
+                <img src="/images/noticias/noticia2.webp" alt="Imagen de ejemplo" class="tarjeta-imagen">
+                <div class="tarjeta-contenido">
+                    <h2 class="tarjeta-titulo">AMD anuncia sus nuevos procesadores</h2>
+                    <p class="tarjeta-texto">Durante el Computex la conocida marca de hardware ha presentado su nueva generación de CPU con arquitectura Zen 5.</p>
+                    <a href="#" class="tarjeta-boton">Leer Más</a>
+                </div>
+            </div>
+            <div class="tarjeta">
+                <img src="/images/noticias/noticia3.webp" alt="Imagen de ejemplo" class="tarjeta-imagen">
+                <div class="tarjeta-contenido">
+                    <h2 class="tarjeta-titulo">Introducción al CSS: qué es, para qué sirve</h2>
+                    <p class="tarjeta-texto">El CSS, un gran aliado del HTML que transforma la experiencia de tus visitantes. Con este artículo, aprenderás todo lo que necesitas saber sobre sus funciones y ventajas.</p>
+                    <a href="#" class="tarjeta-boton">Leer Más</a>
+                </div>
+            </div>
+            <div class="tarjeta">
+                <img src="/images/noticias/html.jpg" alt="Imagen de ejemplo" class="tarjeta-imagen">
+                <div class="tarjeta-contenido">
+                    <h2 class="tarjeta-titulo">Introducción a HTML</h2>
+                    <p class="tarjeta-texto">HTML es el lenguaje con el que se escribe el contenido de las páginas web. Las páginas web pueden ser vistas por el usuario mediante el navegador. El HTML es el lenguaje usado por para especificar el contenido que los navegadores deben representar a la hora de mostrar una página web.</p>
+                    <a href="#" class="tarjeta-boton">Leer Más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="seccion-info">
+        <div class="seccion-info-imagen">
+            <img src="/images/componentes/arma-tu-pc.jpg" alt="Imagen descriptiva">
+        </div>
+        <div class="seccion-info-texto">
+            <h2 class="seccion-info-titulo">ARMA TU COMPUTADORA</h2>
+            <p class="seccion-info-descripcion">Armar una PC gamer desde cero es la única forma infalible de asegurarte de que el sistema será capaz de satisfacer todas tus preferencias personales. Cuando determinas todo lo que hay en tu PC, desde la fuente de alimentación en adelante, sabes que podrás usar los juegos que quieras, a las velocidades de cuadro que quieras, sin sacrificar desempeño. Además, una PC armada a tu medida te permitirá hacerle más actualizaciones; ya sea que la tecnología cambie, que tus necesidades y gustos de gamer cambien o según tu presupuesto lo permita.</p>
+        </div>
+    </div>
+
+    <div class="tittles-categories">
+        <h1>ARMA TU COMPUTADORA</h1>
+    </div>
+
+    <hr>
+
+    <div class="cards-componentes">
+
+        <div class="tarjeta-componentes">
+            <div class="card">
+                <div class="card-img"><div class="img"><img src="/images/componentes/torres.webp" alt=""></div></div>
+                <div class="card-title">TORRES</div>
+                <hr>
+                <div class="card-subtitle">La torre. Es una carcasa de metal o plástico, y quizá, la parte más importante del computador. En su interior se encuentran componentes que hacen que todas las otras partes cumplan su función. Es el equivalente al cerebro del computador.</div>
+                <a href="/componentes.html"><button class="button-card-component">MÁS INFO</button></a>
+            </div>
+        </div>
+
+        <div class="tarjeta-componentes">
+            <div class="card">
+                <div class="card-img"><div class="img"><img src="/images/componentes/procesadores.png" alt=""></div></div>
+                <div class="card-title">PROCESADORES</div>
+                <hr>
+                <div class="card-subtitle">El procesador es el cerebro del sistema, justamente procesa todo lo que ocurre en la PC y ejecuta todas las acciones que existen. Cuanto más rápido sea el procesador que tiene una computadora, más rápidamente se ejecutarán las órdenes que se le den a la máquina.</div>
+                <a href="/componentes.html"><button class="button-card-component">MÁS INFO</button></a>
+            </div>
+        </div>
+    
+        <div class="tarjeta-componentes">
+            <div class="card">
+                <div class="card-img"><div class="img"><img src="/images/componentes/ssd.png" alt=""></div></div>
+                <div class="card-title">SSD</div>
+                <hr>
+                <div class="card-subtitle">Un SSD es un medio de almacenamiento que, a diferencia de un HDD, utiliza una memoria no volátil (flash) para almacenar y acceder a los datos. No hay partes mecánicas móviles, y esto marca la gran diferencia.</div>
+                <a href="/componentes.html"><button class="button-card-component">MÁS INFO</button></a>
+            </div>
+        </div>
+    
+        <div class="tarjeta-componentes">
+            <div class="card">
+                <div class="card-img"><div class="img"><img src="/images/componentes/hdd.png" alt=""></div></div>
+                <div class="card-title">HDD</div>
+                <hr>
+                <div class="card-subtitle">Los discos duros, también conocidos como HDD, son un componente informático que sirve para almacenar de forma permanente tus datos. Esto quiere decir, que los datos no se borran cuando se apaga la unidad como pasa en los almacenados por la memoria RAM.</div>
+                <a href="/componentes.html"><button class="button-card-component">MÁS INFO</button></a>
+            </div>
+        </div>
+    
+        <div class="tarjeta-componentes">
+            <div class="card">
+                <div class="card-img"><div class="img"><img src="/images/componentes/ram.png" alt=""></div></div>
+                <div class="card-title">RAM</div>
+                <hr>
+                <div class="card-subtitle">La memoria RAM es la memoria principal de un dispositivo, esa donde se almacenan de forma temporal los datos de los programas que estás utilizando en este momento.</div>
+                <a href="/componentes.html"><button class="button-card-component">MÁS INFO</button></a>
+            </div>
+        </div>
+    
+        <div class="tarjeta-componentes">
+            <div class="card">
+                <div class="card-img"><div class="img"><img src="/images/componentes/placa-madre.png" alt=""></div></div>
+                <div class="card-title">MOTHERBOARD</div>
+                <div class="card-subtitle">La motherboard se trata de la placa de circuito impreso principal de una computadora, lo que significa que es la pieza principal de los circuitos a la que se conectan las demás piezas que crean el conjunto.</div>
+                <a href="/componentes.html"><button class="button-card-component">MÁS INFO</button></a>
+            </div>
+        </div>
+    
+        <div class="tarjeta-componentes">
+            <div class="card">
+                <div class="card-img"><div class="img"><img src="/images/componentes/fuente-de-alimentacion.png" alt=""></div></div>
+                <div class="card-title">FUENTE DE ALIMENTACIÓN</div>
+                <hr>
+                <div class="card-subtitle">Una fuente de alimentación funciona convirtiendo la potencia de un enchufe de pared y canalizándola hasta cada componente individual en el sistema a través de varios cables. Los dos tipos principales de fuentes de poder para PC son AT y ATX. </div>
+                <a href="/componentes.html"><button class="button-card-component">MÁS INFO</button></a>
+            </div>
+        </div>
+    
+        <div class="tarjeta-componentes">
+            <div class="card">
+                <div class="card-img"><div class="img"><img src="/images/componentes/disipador.webp" alt=""></div></div>
+                <div class="card-title">DISIPADOR</div>
+                <hr>
+                <div class="card-subtitle">El disipador de la CPU extrae el calor que genera el procesador. El disipador es un componente que utiliza un elemento activo (ventilador) o pasivo (aletas de aluminio) para extraer el calor a través del aire.</div>
+                <a href="/componentes.html"><button class="button-card-component">MÁS INFO</button></a>
+            </div>
+        </div>
+    
+        <div class="tarjeta-componentes">
+            <div class="card">
+                <div class="card-img"><div class="img"><img src="/images/componentes/bios.jpg" alt=""></div></div>
+                <div class="card-title">BIOS</div>
+                <hr>
+                <div class="card-subtitle">La BIOS localiza el software gestor de arranque localizado en un dispositivo almacenamiento designado como dispositivo de arranque, tal como un disco duro, un disquete, CD o DVD, carga y ejecuta ese software, dándole el control del PC.</div>
+                <a href="/componentes.html"><button class="button-card-component">MÁS INFO</button></a>
+            </div>
+        </div>
+    
+        <div class="tarjeta-componentes">
+            <div class="card">
+                <div class="card-img"><div class="img"><img src="/images/componentes/chipset.jpg" alt=""></div></div>
+                <div class="card-title">CHIPSET</div>
+                <div class="card-subtitle">Un chipset electrónico gestiona el flujo de datos entre los componentes de una motherboard. Es el controlador de tráfico entre CPU, placa de video, RAM, almacenamiento y periféricos.</div>
+                <a href="/componentes.html"><button class="button-card-component">MÁS INFO</button></a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2>LUDTECH</h2>
+                <p>Tu fuente confiable para componentes informáticos.</p>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contacto</h3>
+                <p>Email: ACO-ISSD@ludtech.com</p>
+                <p>Teléfono: +54 9 11 1234 5678</p>
+            </div>
+            <div class="footer-section location">
+                <h3>Ubicación</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6810.018589100329!2d-64.180028!3d-31.413870000000003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a29da8e0623d%3A0xba7c9d25b3fac648!2sInstituto%20Superior%20Santo%20Domingo!5e0!3m2!1ses!2sar!4v1721787461304!5m2!1ses!2sar" width="100%" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="footer-section payments">
+                <h3>Opciones de Pago</h3>
+                <p>Aceptamos:</p>
+                <img src="/images/footer/visa.png" alt="Visa">
+                <img src="images/footer/mastercard.png" alt="MasterCard">
+                <img src="images/footer/paypal.png" alt="PayPal">
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 LUDTECH | Diseñado por Ludmila
+        </div>
+    </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
