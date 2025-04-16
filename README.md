@@ -1,4 +1,4 @@
-# 💻 Proyectos Académicos - Carrera en Tecnología
+# 💻 Proyectos Académicos - Desarrollo de Software
 
 Bienvenido/a a este repositorio, donde comparto parte de mi recorrido académico a través de distintos trabajos prácticos y proyectos desarrollados durante el cursado de materias orientadas a la programación, desarrollo web, bases de datos y arquitectura de computadoras.
 
